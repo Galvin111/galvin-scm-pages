@@ -1,0 +1,16 @@
+{
+  "name": "galvin-scm-pages",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Caption Lab — static site deployed to GitHub Pages with a lint-gated GitHub Actions pipeline.",
+  "author": "Galvin Venturina",
+  "scripts": {
+    "lint": "eslint site/js scripts",
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "eslint": "^9.39.5",
+    "globals": "^17.13.0"
+  }
+}
